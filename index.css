@@ -131,4 +131,28 @@
 
 .navLink{font-family: EvolveSansLight; color: rgb(255, 255, 255);}
 
-nav button i{border: none;}
+.border-none{border: none;}
+
+.nav-link-style{font-family: EvolveSansLight; color: rgb(255, 255, 255);}
+
+.text-opacity-0{color: rgba(0, 0, 0, 0);}
+
+.tile-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.header-tile{
+    font-family: EvolveSansLight;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: x-large;
+}
+
+.flex-attributes{
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
