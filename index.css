@@ -151,8 +151,8 @@
     font-size: x-large;
 }
 
-.flex-attributes{
-    flex-direction: column;
-    flex-wrap: wrap;
-    
+.evo-light{
+    font-family: EvolveSanslight;
 }
+
+.project-font{font-size: x-large;}
