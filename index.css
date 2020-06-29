@@ -71,9 +71,6 @@
     top: 90%;
 }
 
-.copyright{ font-family: EvolveSansRegular; }
-.copyright a{ text-decoration: none; }
-.copyright a :hover{ color: white; transition-duration: 350ms; }
 
 .view-button{
     border: 2px solid white;
@@ -156,3 +153,19 @@
 }
 
 .project-font{font-size: x-large;}
+
+.bg-opaque:hover{
+    background-color: rgb(50, 50, 50);
+    transition-timing-function: ease-in-out; 
+    transition-duration: 100ms;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: #17a2b8;
+    transition-timing-function: ease-in-out; 
+    transition-duration: 100ms;
+}
