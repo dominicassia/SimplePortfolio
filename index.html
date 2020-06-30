@@ -356,16 +356,37 @@
 
         function changeColor() {
 
-            alert("called")
+            var temp = document.getElementById('color-change')
 
-            var temp = document.getElementById("color-change");
+            if( temp.classList.contains('bg-info') ){
 
-            if ( temp.classList.contains("bg-info") ){
-                temp.classList.remove("bg-info")
-                temp.classList.add("bg-warning")
+                alert('bg-info')
+
+                $(document.getElementById('color-change')).each( function() {
+
+                    alert('each')
+
+                    temp.classList.remove('bg-info')
+                    temp.classList.add('bg-success')
+
+                });
+
+            }else if( temp.classList.contains('bg-success') ){
+
+                alert('bg-success')
+
+                $($(this)).each( function() {
+
+                    alert('each')
+
+                    temp.classList.remove('bg-success')
+                    temp.classList.add('bg-orange')
+
+                });
+
             }
 
-        }
+        };
 
     </script>
 
