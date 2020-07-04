@@ -50,7 +50,7 @@
     height: auto;
     min-height: 45rem;
     padding-top: 41.5rem;
-    background: url("../img/code.gif");
+    background: url("../img/headers/code.gif");
     background-position: center;
     background-repeat: repeat;
     background-attachment: scroll;
@@ -62,7 +62,7 @@
     height: auto;
     min-height: 45rem;
     padding-top: 41.5rem;
-    background: url("../img/waterfall.gif");
+    background: url("../img/headers/waterfall.gif");
     background-position: center;
     background-repeat: repeat;
     background-attachment: scroll;
@@ -119,8 +119,15 @@
 }
 
 footer a{color: white;}
+li a{color: white;}
 
 footer a:hover{
+    color: #17a2b8;
+    transition-timing-function: ease-in-out; 
+    transition-duration: 100ms;
+}
+
+li a:hover{
     color: #17a2b8;
     transition-timing-function: ease-in-out; 
     transition-duration: 100ms;
