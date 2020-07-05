@@ -56,7 +56,21 @@
     background-attachment: scroll;
     background-size: cover;
 }
+
 .landing-photo{
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 45rem;
+    padding-top: 41.5rem;
+    background: url("../img/headers/waterfall.gif");
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.landing-projects{
     position: relative;
     width: 100%;
     height: auto;
