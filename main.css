@@ -83,6 +83,20 @@
     background-size: cover;
 }
 
+.hover-hash span{
+    opacity: 0;
+    color: #17a2b8;
+}
+
+.hover-hash:hover h1{
+    color: white;
+}
+
+.hover-hash:hover span{
+    opacity: 100;
+    transition-timing-function: ease-in-out; 
+    transition-duration: 100ms;
+}
 .horz-line-footer{
     width: 15em;
     padding: 1px;
