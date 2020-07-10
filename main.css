@@ -38,6 +38,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'VarelaRound';
+    src: url('../font/VarelaRound-Regular.woff2') format('woff2'),
+         url('../font/VarelaRound-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .bg-main{ background-color: rgb(33, 33, 33); }
 .bg-opaque{ background-color: rgba(43, 43, 43, 100); }
 .text-opaque{ color: rgba(73, 73, 73, 100); }
@@ -49,13 +57,52 @@
     width: 100%;
     height: auto;
     min-height: 45rem;
-    padding-top: 41.5rem;
+    padding-top: 25rem;
     background: url("../img/headers/code.gif");
     background-position: center;
     background-repeat: repeat;
     background-attachment: scroll;
     background-size: cover;
 }
+
+
+.landing-index h1 {
+    font-family: 'VarelaRound';
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  
+  .landing-index h2 {
+    max-width: 20rem;
+    font-size: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .landing-index h1 {
+      font-size: 4rem;
+      line-height: 4rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .landing-index {
+      height: 100vh;
+      padding: 0;
+    }
+    .landing-index h1 {
+      font-size: 6.5rem;
+      line-height: 6.5rem;
+      letter-spacing: 0.8rem;
+    }
+    .landing-index h2 {
+      max-width: 30rem;
+      font-size: 1.25rem;
+    }
+  }
 
 .landing-photo{
     position: relative;
