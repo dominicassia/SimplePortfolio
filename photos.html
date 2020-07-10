@@ -297,5 +297,28 @@
     <!-- Disable Right-Click & Drag -->
     <script type="text/javascript" language="javascript"> $(document).bind("contextmenu",function(e){e.preventDefault()}); </script>
 
+    <!-- Smooth scrolling -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+    <script type="text/javascript" language="javascript">
+    
+    // https://github.com/cferdinandi/smooth-scroll
+
+        var scroll = new SmoothScroll('a[href*="#"]', {
+
+            	// Speed & Duration
+                speed: 1000,                 // Integer. Amount of time in milliseconds it should take to scroll 1000px
+                speedAsDuration: false,     // If true, use speed as the total duration of the scroll animation
+                easing: 'easeInOutQuint',   // Easing pattern to use
+                
+                // Easing options:
+                    // easeInOutQuad
+                    // easeInOutCubic
+                    // easeInOutQuart
+                    // easeInOutQuint
+
+        });
+
+    </script>
+    
     </body>
 </html>
