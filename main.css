@@ -96,8 +96,6 @@
 }
 
 .landing-projects-herb{
-    /* filter: blur(8px);
-    -webkit-filter: blur(8px); */
     position: relative;
     width: 100%;
     height: auto;
@@ -114,6 +112,10 @@
 .hover-hash span{
     opacity: 0;
     color: #17a2b8;
+}
+
+p {
+    font-size: larger;
 }
 
 .hover-hash:hover h1{
