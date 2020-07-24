@@ -114,6 +114,16 @@
     color: #17a2b8;
 }
 
+table i {
+    color: white;
+}
+
+table i:hover {
+    color: #17a2b8;
+    transition-timing-function: ease-in-out; 
+    transition-duration: 100ms;
+}
+
 p {
     font-size: larger;
 }
