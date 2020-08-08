@@ -128,6 +128,17 @@ p {
     font-size: larger;
 }
 
+.text-link{
+    text-decoration: none;
+    color: grey;
+}
+.text-link:hover{
+    text-decoration: none;
+    transition-timing-function: ease-in-out; 
+    transition-duration: 100ms;
+    color: #17a2b8;
+}
+
 .hover-hash:hover h1{
     color: white;
 }
@@ -147,6 +158,13 @@ p {
     max-width: 80%;
     color: white;
     background: white;
+    padding: 1px;
+}
+.hr-p{
+    min-width: 50%; 
+    max-width: 50%;
+    color: #17a2b8;
+    background: #17a2b8;
     padding: 1px;
 }
 .scroll-down-bar{
