@@ -123,6 +123,20 @@
     background-size: cover;
 }
 
+.landing-projects-tri{
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 90vh;
+    max-height: 90vh;
+    padding-top: 41.5rem;
+    background: url("../img/headers/triangle.gif");
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
 .hover-hash span{
     opacity: 0;
     color: #17a2b8;
