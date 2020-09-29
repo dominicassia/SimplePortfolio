@@ -140,16 +140,10 @@
 .landing-WIP{
     position: relative;
     width: 100%;
-    height: auto;
-    min-height: 90vh;
-    max-height: 90vh;
-    padding-top: 41.5rem;
-    background-image: url("https://giphy.com/gifs/xUA7aSVLhM0FytmmY0/html5");
-    background-position: center;
-    background-repeat: repeat;
-    background-attachment: scroll;
-    background-size: cover;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
+
 .hover-hash span{
     opacity: 0;
     color: #17a2b8;
@@ -163,6 +157,13 @@ table i:hover {
     color: #17a2b8;
     transition-timing-function: ease-in-out; 
     transition-duration: 100ms;
+}
+
+.WIP {
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%;
+    position: relative;
 }
 
 p {

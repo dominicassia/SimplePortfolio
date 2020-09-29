@@ -21,8 +21,6 @@
 
     <title>Doma | Portfolio</title>
 
-    <!-- TODO: Work on JS smooth scroll, project page template -->
-
   </head>
 
 <body class="bg-main" id="landing" ondragstart="return false" onselectstart="return false">
@@ -33,7 +31,7 @@
 
         <div class="container">
 
-            <a class="navbar-brand js-scroll-trigger text-light logo-style" href="#landing">Doma</a>
+            <a class="navbar-brand js-scroll-trigger text-light logo-style" href="../index.html">Doma</a>
 
             <button class="navbar-toggler border-none" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-circle-notch text-light"></i>
@@ -44,11 +42,11 @@
                 <ul class="navbar-nav ml-auto">
 
                     <li class="nav-item">
-                        <a class="nav-link text-light nav-link-style" href="#photos">Photos</a>
+                        <a class="nav-link text-light nav-link-style" href="../index.html#photos">Photos</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link text-light nav-link-style" href="#projects">Projects</a>
+                        <a class="nav-link text-light nav-link-style" href="../projects.html">Projects</a>
                     </li>
 
                     <li class="nav-item">
@@ -72,209 +70,35 @@
      
      <header class="landing-WIP">
 
-        <div class="container h-100 d-flex justify-content-center">
+            <div class="container h-100 d-flex justify-content-center">
 
-            <!-- Work in progress Gif -->
-            <div style="width:100%;height:0;padding-bottom:56%;position:relative;">
-                <iframe src="https://giphy.com/embed/xUA7aSVLhM0FytmmY0" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-            </div>
-            
-            <h1 class="text-light evo-light">hello</h1>
+                <div class="row">
 
-            <div class="m-2 t-92">
+                    <!-- Embedded Gif -->
+                    <div class="WIP">
+                        <iframe class="img-overlay" src="https://giphy.com/embed/xUA7aSVLhM0FytmmY0" width="100%" height="100%" style="position:absolute;" frameBorder="0" class="giphy-embed"></iframe>
+                    </div>
 
-        
-                <a href="#tiles-accent">
-        
-                    <div class="scroll-down-bar p-1"></div>
-        
-                </a>
-        
-            </div>
-        
+                    <h1 class="col-lg-12 text-light evo-light mx-auto text-center mt-3">This page is a work in progress.</h1>
+                    <h1 class="col-lg-12 text-light evo-light mx-auto text-center">Visit again soon!</h1>
+
+                    <div class='container'>
+
+                        <a href='../index.html' class="text-decoration-none">
+                            <div class="px-1 py-3 mt-3 w-50 text-light mx-auto text-center bg-opaque evo-light"><h3 class='m-0 p-0'>Home</h3></div>
+                        </a>
+
+                    </div>
+                </div>
         </div>
 
     </header>
 
     <!-- Accent Line -->
 
-    <section class="bg-opaque text-opacity-0 mb-2" id="tiles-accent">-</section>
+    <section class="bg-info text-opacity-0 mb-2" id="tiles-accent">-</section>
 
-    <!-- Tiles -->
-
-    <section id="tiles">
-
-        <section id="photos">
-
-            <div class="container">
-
-                <div class="row">
-
-                    <!-- Header Tile -->
-                
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-0 py-2">
-    
-                        <div class="d-flex mx-2 py-2 justify-content-start bg-info">
-                            
-                            <div class="col-lg-3 header-tile mr-auto">Photos</div>
-    
-                        </div>
-    
-                    </div>
-
-                    <!-- Left Column -->
-
-                    <div class="col-lg-6 float-left px-2">
-
-                        <img class="img-fluid py-2" src="img/photos/eric.jpg"></img>
-
-                        <img class="img-fluid py-2" src="img/photos/float.jpg"></img>
-
-                    </div>
-
-                    <!-- Right Column -->
-
-                    <div class="col-lg-6 float-right px-2">
-
-                        <img class="img-fluid py-2" src="img/photos/fern.jpg"></img>
-
-                        <img class="img-fluid py-2" src="img/photos/elena-steel.jpg"></img>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <!-- View More -->
-
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4 mx-auto my-2">
-
-                        <a class="text-decoration-none" href="photos.html">
-
-                            <div class="evo-light text-light text-center project-font py-2 bg-opaque">view more</div>
-
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-        <section id="projects">
-
-            <div class="container">
-
-                <div class="row">
-    
-                    <!-- Header Tile -->
-                
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-2 px-0">
-    
-                        <div class="d-flex mx-2 py-2 justify-content-start bg-info">
-                            
-                            <div class="col-lg-3 header-tile mr-auto">Projects</div>
-    
-                        </div>
-    
-                    </div>
-                    
-                    <!-- Left Column -->
-
-                    <div class="col-lg-6 float-left px-2">
-
-                        <div class="container-fluid bg-opaque px-0 my-3 project-tile">
-
-                            <a class="text-decoration-none" href="projects/herb garden.html">
-
-                                <h1 class="evo-light text-light project-font pl-4 my-0 py-3">Herb garden</h1>
-
-                                <img class="img-fluid img-overlay" src="img/projects/herb/herb-horz.jpg"></img>
-
-                            </a>
-
-                        </div>
-
-                        <div class="container-fluid bg-opaque px-0 my-3 project-tile">
-
-                            <a class="text-decoration-none" href="projects/control panel.html">
-
-                                <h1 class="evo-light text-light project-font pl-4 my-0 py-3">Ctrl panel</h1>
-
-                                <img class="img-fluid img-overlay" src="img/projects/control panel/control panel.jpg"></img>
-
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                    <!-- Right Column -->
-
-                    <div class="col-lg-6 float-right px-2">
-
-                        <div class="container-fluid bg-opaque px-0 my-3 project-tile">
-
-                            <a class="text-decoration-none" href="#">
-
-                                <h1 class="evo-light text-light project-font pl-4 my-0 py-3">Automated waterer</h1>
-
-                                <img class="img-fluid img-overlay" src="img/projects/Blinking PCB.gif"></img>
-
-                            </a>
-
-                        </div>
-
-                        <div class="container-fluid bg-opaque px-0 my-3 project-tile">
-
-                            <a class="text-decoration-none" href="/projects/Triangular Polygon.html">
-    
-                                <h1 class="evo-light text-light project-font pl-4 my-0 py-3">Triangular polygon</h1>
-    
-                                <img class="img-fluid img-overlay" src="img/projects/triangle/triangle art.jpg"></img>
-    
-                            </a>
-    
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <!-- View More -->
-
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4 mx-auto my-2">
-
-                        <a class="text-decoration-none" href="projects.html">
-
-                            <div class="evo-light text-light text-center project-font py-2 bg-opaque">view more</div>
-
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-            
-        </section>
-
-    </section>
-
-    <!-- Footer -->
+  
 
     <footer>
 
