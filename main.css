@@ -137,6 +137,19 @@
     background-size: cover;
 }
 
+.landing-WIP{
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 90vh;
+    max-height: 90vh;
+    padding-top: 41.5rem;
+    background-image: url("https://giphy.com/gifs/xUA7aSVLhM0FytmmY0/html5");
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
 .hover-hash span{
     opacity: 0;
     color: #17a2b8;
