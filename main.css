@@ -1,47 +1,47 @@
 @font-face {
     font-family: 'EvolveSansBold';
-    src: url('../font/made_evolve_sans_bold.woff2') format('woff2'),
-         url('../font/made_evolve_sans_bold.woff') format('woff');
+    src: url('../fonts/made_evolve_sans_bold.woff2') format('woff2'),
+         url('../fonts/made_evolve_sans_bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'EvolveSansLight';
-    src: url('../font/made_evolve_sans_light.woff2') format('woff2'),
-         url('../font/made_evolve_sans_light.woff') format('woff');
+    src: url('../fonts/made_evolve_sans_light.woff2') format('woff2'),
+         url('../fonts/made_evolve_sans_light.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'EvolveSansMedium';
-    src: url('../font/made_evolve_sans_medium.woff2') format('woff2'),
-         url('../font/made_evolve_sans_medium.woff') format('woff');
+    src: url('../fonts/made_evolve_sans_medium.woff2') format('woff2'),
+         url('../fonts/made_evolve_sans_medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'EvolveSansRegular';
-    src: url('../font/made_evolve_sans_regular.woff2') format('woff2'),
-         url('../font/made_evolve_sans_regular.woff') format('woff');
+    src: url('../fonts/made_evolve_sans_regular.woff2') format('woff2'),
+         url('../fonts/made_evolve_sans_regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'EvolveSansThin';
-    src: url('../font/made_evolve_sans_thin.woff2') format('woff2'),
-         url('../font/made_evolve_sans_thin.woff') format('woff');
+    src: url('../fonts/made_evolve_sans_thin.woff2') format('woff2'),
+         url('../fonts/made_evolve_sans_thin.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'VarelaRound';
-    src: url('../font/VarelaRound-Regular.woff2') format('woff2'),
-         url('../font/VarelaRound-Regular.woff') format('woff');
+    src: url('../fonts/VarelaRound-Regular.woff2') format('woff2'),
+         url('../fonts/VarelaRound-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -60,7 +60,7 @@
     min-height: 90vh;
     max-height: 90vh;
     padding-top: 20rem;
-    background: url("../img/headers/code.gif");
+    background: url("../img/web-opt/headers/code.gif");
     background-position: center;
     background-repeat: repeat;
     background-attachment: scroll;
@@ -74,7 +74,7 @@
     min-height: 90vh;
     max-height: 90vh;
     padding-top: 41.5rem;
-    background: url("../img/headers/waterfall.gif");
+    background: url("../img/web-opt/headers/waterfall.gif");
     background-position: center;
     background-repeat: repeat;
     background-attachment: scroll;
@@ -88,7 +88,7 @@
     min-height: 90vh;
     max-height: 90vh;
     padding-top: 41.5rem;
-    background: url("../img/headers/waterfall.gif");
+    background: url("../img/web-opt/headers/waterfall.gif");
     background-position: center;
     background-repeat: repeat;
     background-attachment: scroll;
@@ -102,7 +102,7 @@
     min-height: 90vh;
     max-height: 90vh;
     padding-top: 41.5rem;
-    background: linear-gradient(rgba(33,33,33,.9) 5%, rgba(0,0,0,0) 60%, rgba(33,33,33,.8) 80%, rgba(33,33,33,1) 100%), url("../img/projects/herb/herb-horz.jpg");
+    background: linear-gradient(rgba(33,33,33,.9) 5%, rgba(0,0,0,0) 60%, rgba(33,33,33,.8) 80%, rgba(33,33,33,1) 100%), url("../img/web-opt/projects/herb/herb-horz.jpg");
     background-position: center;
     background-repeat: repeat;
     background-attachment: scroll;
@@ -116,7 +116,7 @@
     min-height: 90vh;
     max-height: 90vh;
     padding-top: 41.5rem;
-    background: linear-gradient(rgba(33,33,33,.9) 5%, rgba(0,0,0,0) 60%, rgba(33,33,33,.8) 80%, rgba(33,33,33,1) 100%), url("../img/projects/control panel/control panel.jpg");
+    background: linear-gradient(rgba(33,33,33,.9) 5%, rgba(0,0,0,0) 60%, rgba(33,33,33,.8) 80%, rgba(33,33,33,1) 100%), url("../img/web-opt/projects/control panel/control panel.jpg");
     background-position: center;
     background-repeat: repeat;
     background-attachment: scroll;
@@ -130,7 +130,7 @@
     min-height: 90vh;
     max-height: 90vh;
     padding-top: 41.5rem;
-    background: url("../img/headers/triangle.gif");
+    background: url("../img/web-opt/headers/triangle.gif");
     background-position: center;
     background-repeat: repeat;
     background-attachment: scroll;

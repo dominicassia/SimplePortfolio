@@ -3,6 +3,7 @@
 *.code-workspace
 !*.html
 !*.gitignore
+!*.css
 
 # Images
 img/*
