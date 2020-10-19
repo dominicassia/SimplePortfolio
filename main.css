@@ -60,11 +60,14 @@
     min-height: 90vh;
     max-height: 90vh;
     padding-top: 20rem;
-    background: url("../img/web-opt/headers/code.gif");
+    background-color: #FAD961;
+    background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+
+    /* background: url("../img/web-opt/headers/code.gif");
     background-position: center;
     background-repeat: repeat;
     background-attachment: scroll;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .landing-photo{
@@ -74,11 +77,14 @@
     min-height: 90vh;
     max-height: 90vh;
     padding-top: 41.5rem;
-    background: url("../img/web-opt/headers/waterfall.gif");
+    background-color: #FAD961;
+    background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+
+    /* background: url("../img/web-opt/headers/waterfall.gif");
     background-position: center;
     background-repeat: repeat;
     background-attachment: scroll;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .landing-projects{
@@ -88,11 +94,14 @@
     min-height: 90vh;
     max-height: 90vh;
     padding-top: 41.5rem;
-    background: url("../img/web-opt/headers/waterfall.gif");
+    background-color: #FAD961;
+    background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+
+    /* background: url("../img/web-opt/headers/waterfall.gif");
     background-position: center;
     background-repeat: repeat;
     background-attachment: scroll;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .landing-projects-herb{
@@ -102,11 +111,15 @@
     min-height: 90vh;
     max-height: 90vh;
     padding-top: 41.5rem;
-    background: linear-gradient(rgba(33,33,33,.9) 5%, rgba(0,0,0,0) 60%, rgba(33,33,33,.8) 80%, rgba(33,33,33,1) 100%), url("../img/web-opt/projects/herb/herb-horz.jpg");
+
+    background-color: #FAD961;
+    background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+
+    /* background: linear-gradient(rgba(33,33,33,.9) 5%, rgba(0,0,0,0) 60%, rgba(33,33,33,.8) 80%, rgba(33,33,33,1) 100%), url("../img/web-opt/projects/herb/herb-horz.jpg");
     background-position: center;
     background-repeat: repeat;
     background-attachment: scroll;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .landing-projects-ctrl{
@@ -116,11 +129,15 @@
     min-height: 90vh;
     max-height: 90vh;
     padding-top: 41.5rem;
-    background: linear-gradient(rgba(33,33,33,.9) 5%, rgba(0,0,0,0) 60%, rgba(33,33,33,.8) 80%, rgba(33,33,33,1) 100%), url("../img/web-opt/projects/control panel/control panel.jpg");
+
+    background-color: #FAD961;
+    background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+
+    /* background: linear-gradient(rgba(33,33,33,.9) 5%, rgba(0,0,0,0) 60%, rgba(33,33,33,.8) 80%, rgba(33,33,33,1) 100%), url("../img/web-opt/projects/control panel/control panel.jpg");
     background-position: center;
     background-repeat: repeat;
     background-attachment: scroll;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .landing-projects-tri{
@@ -130,11 +147,15 @@
     min-height: 90vh;
     max-height: 90vh;
     padding-top: 41.5rem;
-    background: url("../img/web-opt/headers/triangle.gif");
+
+    background-color: #FAD961;
+    background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+
+    /* background: url("../img/web-opt/headers/triangle.gif");
     background-position: center;
     background-repeat: repeat;
     background-attachment: scroll;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .landing-WIP{
