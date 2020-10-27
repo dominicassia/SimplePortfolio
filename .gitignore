@@ -6,8 +6,7 @@
 !*.css
 
 # Images
-img/*
-# !img/web-opt
+img
 
 # Fonts
 fonts/*
