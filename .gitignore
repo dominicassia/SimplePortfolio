@@ -7,7 +7,7 @@
 
 # Images
 img/*
-!img/web-opt
+# !img/web-opt
 
 # Fonts
 fonts/*
