@@ -158,6 +158,21 @@
     background-size: cover; */
 }
 
+.landing-projects-automated-pcb{
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 90vh;
+    max-height: 90vh;
+    padding-top: 41.5rem;
+
+    background: url("https://lh3.googleusercontent.com/lhngkg9BS33d2pkxRrSGcjoDDzyYZ3CwS1_jIWcAc61U_P0mzZMCSkRwiuce83BqNRuRimoU1g5FfWk7i3ddB2rFg5hn_RTAlwZ3imqEDVkVU6ULev3R4_HZjqQvgJHitqhw4LJPfg=w2400");
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: cover;  
+}
+
 .landing-WIP{
     position: relative;
     width: 100%;
