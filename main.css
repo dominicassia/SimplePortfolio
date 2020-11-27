@@ -322,3 +322,7 @@ li a:hover{
 .img-overlay{
     opacity: 75%;
 }
+
+img{
+    pointer-events: none;
+}
